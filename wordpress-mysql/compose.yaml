@@ -17,7 +17,7 @@ services:
       - 3306
       - 33060
   wordpress:
-    image: wordpress:5-apache
+    image: wordpress:6-apache
     ports:
       - 80:80
     restart: always
